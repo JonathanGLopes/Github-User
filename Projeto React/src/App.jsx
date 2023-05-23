@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
     <h1>Inicio</h1>
+    <ExpenseItem />
     </>
   )
 }
